@@ -16,6 +16,7 @@
 		2D5B652B26B655D3006773D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5B652926B655D3006773D6 /* LaunchScreen.storyboard */; };
 		2D5B653626B655D3006773D6 /* SwiftUI_SectionsInCombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B653526B655D3006773D6 /* SwiftUI_SectionsInCombineTests.swift */; };
 		2D5B654126B655D4006773D6 /* SwiftUI_SectionsInCombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B654026B655D4006773D6 /* SwiftUI_SectionsInCombineUITests.swift */; };
+		2D5B655626B65694006773D6 /* GroceryCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5B655526B65694006773D6 /* GroceryCategory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		2D5B653C26B655D4006773D6 /* SwiftUI-SectionsInCombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-SectionsInCombineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D5B654026B655D4006773D6 /* SwiftUI_SectionsInCombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SectionsInCombineUITests.swift; sourceTree = "<group>"; };
 		2D5B654226B655D4006773D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5B655526B65694006773D6 /* GroceryCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryCategory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		2D5B651A26B655D2006773D6 /* SwiftUI-SectionsInCombine */ = {
 			isa = PBXGroup;
 			children = (
+				2D5B655126B6567B006773D6 /* Models */,
 				2D5B651B26B655D2006773D6 /* AppDelegate.swift */,
 				2D5B651D26B655D2006773D6 /* SceneDelegate.swift */,
 				2D5B651F26B655D2006773D6 /* ContentView.swift */,
@@ -137,6 +140,14 @@
 				2D5B654226B655D4006773D6 /* Info.plist */,
 			);
 			path = "SwiftUI-SectionsInCombineUITests";
+			sourceTree = "<group>";
+		};
+		2D5B655126B6567B006773D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D5B655526B65694006773D6 /* GroceryCategory.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D5B652326B655D2006773D6 /* SwiftUI_SectionsInCombine.xcdatamodeld in Sources */,
+				2D5B655626B65694006773D6 /* GroceryCategory.swift in Sources */,
 				2D5B651C26B655D2006773D6 /* AppDelegate.swift in Sources */,
 				2D5B651E26B655D2006773D6 /* SceneDelegate.swift in Sources */,
 				2D5B652026B655D2006773D6 /* ContentView.swift in Sources */,
